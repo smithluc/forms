@@ -1,0 +1,42 @@
+.booking-title {
+    font-size: 50px;
+    font-family: ProximaRegular;
+    max-width: 1100px;
+    height: 90px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+
+
+    .bookingheader {
+        border-bottom: 2px solid black;
+        width: 20%;
+        position: absolute;
+        left: 0;
+        bottom: 20px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .booking-title {
+        padding-left: 30px;
+
+        .bookingheader {
+            margin-left: 30px;
+            width: 20%;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .booking-title {
+        justify-content: center;
+
+        .bookingheader {
+            justify-content: center;
+            margin-left: 175px;
+            width: 30%;
+        }
+    }
+}

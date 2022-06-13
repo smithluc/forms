@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 1;
+}
+
+@font-face {
+    font-family: ProximaRegular;
+    src: url(../css/fonts/ProximaNova-Regular-webfont.ttf);
+}
+
+@font-face {
+    font-family: ProximaThin;
+    src: url(../css/fonts/ProximaNova-Thin-webfont.ttf);
+}
+
+@font-face {
+    font-family: Proximacondensed;
+    src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
